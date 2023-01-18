@@ -1,0 +1,27 @@
+{
+    "name": "entermedia-llc/nextjs-starter-d9",
+    "description": "A base profile for Drupal 9.",
+    "type": "drupal-custom-profile",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Entermedia\\NextjsStarterD9\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
+    },
+    "require": {
+        "drupal/next": "^1.6"
+    }
+}
