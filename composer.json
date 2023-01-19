@@ -1,7 +1,7 @@
 {
     "name": "entermedia-llc/nextjs-starter-d9",
-    "description": "A base profile for Drupal 9.",
-    "type": "drupal-custom-profile",
+    "description": "A base profile for Drupal 9 with Next.js integration.",
+    "type": "drupal-profile",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -19,7 +19,8 @@
     "config": {
         "allow-plugins": {
             "cweagans/composer-patches": true
-        }
+        },
+        "sort-packages": true
     },
     "require": {
         "cweagans/composer-patches": "^1.7",
