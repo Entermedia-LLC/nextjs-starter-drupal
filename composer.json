@@ -34,6 +34,8 @@
         "drupal/field_group": "^3.4",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_login": "^2.0",
+        "drupal/graphql": "^4.4",
+        "drupal/graphql_compose": "^1.0@beta",
         "drupal/jsonapi_extras": "^3.23",
         "drupal/jsonapi_menu_items": "^1.2",
         "drupal/jsonapi_views": "^1.0",
