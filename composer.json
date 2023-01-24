@@ -41,6 +41,8 @@
         "drupal/module_filter": "^4.0",
         "drupal/next": "^1.6",
         "drupal/redirect": "^1.8",
+        "drupal/search_api": "^1.28",
+        "drupal/search_api_algolia": "^3.0@beta",
         "drupal/structure_sync": "^2.0"
     },
     "extra": {
