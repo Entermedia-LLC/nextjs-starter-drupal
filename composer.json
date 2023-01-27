@@ -1,6 +1,6 @@
 {
     "name": "entermedia-llc/nextjs-starter-drupal",
-    "description": "A base profile for Drupal 9 with Next.js integration.",
+    "description": "A base installation profile for Drupal 9 with Next.js integration.",
     "type": "drupal-profile",
     "license": "MIT",
     "autoload": {

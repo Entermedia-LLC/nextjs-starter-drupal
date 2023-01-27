@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.next
+  module:
+    - user
+id: user_add_role_action.next
+label: 'Add the Next role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: next
